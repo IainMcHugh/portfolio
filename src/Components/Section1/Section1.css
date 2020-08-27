@@ -1,0 +1,137 @@
+.background-container {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+#background-container_img {
+    height: 100%;
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.rock-container {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+
+#rock-container_img {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.iain-container {
+    height: 100%;
+    width: 100%;
+}
+
+#iain-container_img {
+    position: absolute;
+    top: -700px;
+    right: 50px;
+    transform-origin: 100% 100%;
+    animation: wriggle 2s ease-in-out infinite;
+}
+
+@keyframes wriggle {
+    0% {
+        transform: rotate(-1deg) scale(0.6);
+    }
+
+    50% {
+        transform: rotate(1deg) scale(0.6);
+    }
+
+    100% {
+        transform: rotate(-1deg) scale(0.6);
+    }
+}
+
+#intro-wrapper {
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    height: 50%;
+    width: 70%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+ 
+#intro-title {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.33);
+    box-shadow: 5px 5px 10px rgba(20, 20, 20, 0.2);
+    flex-grow: 3;
+    margin: 10px 0;
+}
+
+#intro-title > h2 {
+    height: 100%;
+    width: 100%;
+    font-size: 36px;
+    font-weight: 300;
+    color: rgb(53, 53, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-container {
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(20, 20, 20, 0.2);
+    background-color: rgba(255, 255, 255, 0.8);
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro1 {
+    background-color: rgba(255, 255, 255, 0.66);
+    flex-grow: 2;
+    text-align: left;
+}
+
+#intro2 {
+    background-color: rgba(255, 255, 255, 0.99);
+    border: 5px solid rgba(37, 37, 37, 0.8);
+    flex-grow: 1;
+    text-align: left;
+}
+
+.intro-container > h4 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #111;
+}
+
+@media screen and (min-width: 768px){
+
+    #intro-wrapper {
+        width: 600px;
+    }
+
+    #intro-title > h2 {
+        font-size: 72px;
+    }
+}
