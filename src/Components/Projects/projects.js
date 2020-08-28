@@ -15,7 +15,7 @@ let projects = {
       github: "https://github.com/IainMcHugh/axonista_technical_test",
       logo:
         "https://github.com/IainMcHugh/axonista_technical_test/blob/master/src/images/logo.png?raw=true",
-      live: "#",
+      live: "https://iainmchugh.github.io/axonista_technical_test/",
       desktopMobile: true,
       description: "Weather Application that uses caching, geolocation, and API requests to provide visual weather data for both the users location and searched locations. Designed in ReactJS with Unit Tests",
       status: "(Complete)"

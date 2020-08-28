@@ -16,11 +16,11 @@ const Project = (props) => {
           <h4>{props.proj.description}</h4>
           <h4>{props.proj.status}</h4>
           <div id="project-overlay_icons">
-            <a href={props.proj.github}>
+            <a href={props.proj.github} target="_blank">
               <CodeIcon fontSize="large" />
             </a>
 
-            <a href={props.proj.live}>
+            <a href={props.proj.live} target="_blank">
               {props.proj.desktopMobile ? (
                 <DesktopWindowsIcon fontSize="large" />
               ) : (

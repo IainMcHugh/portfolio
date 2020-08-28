@@ -19,14 +19,6 @@ const Section1 = () => {
         <div id="intro-title">
           <h2>Iain McHugh</h2>
         </div>
-        <div className="intro-container" id="intro1">
-          <h4>
-            I'm a Frontend Developer with skills in multiple web technologies.
-          </h4>
-        </div>
-        <div className="intro-container" id="intro2">
-          <h4>Scroll down to view some of my projects.</h4>
-        </div>
       </div>
     </div>
   );
