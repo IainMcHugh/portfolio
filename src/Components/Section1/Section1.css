@@ -74,13 +74,24 @@
 
 #intro-wrapper {
     position: absolute;
-    left: 5%;
+    /* left: 5%; */
+    left: -500px;
     bottom: 5%;
     height: 10%;
     width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    animation: introAnim 0.5s ease-in-out 1s forwards;
+}
+
+@keyframes introAnim{
+    from{
+        left: -500px;
+    }
+    to{
+        left: 5%;
+    }
 }
 
  
