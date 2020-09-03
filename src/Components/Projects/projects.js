@@ -91,7 +91,7 @@ let projects = {
       live: "https://iainmchugh.github.io/programa/",
       desktopMobile: true,
       description:
-        "Expansive Web Application that allows users to create, schedule, and complete workouts, tracking their sets, reps, and weights used. Designed with ReactJS/Firebase",
+        "Expansive Web Application that allows users to create, schedule, and complete workouts, tracking their sets, reps, and weights used. Designed with TypeScript/Firebase",
       status: "(Complete)",
     },
   },
@@ -114,6 +114,7 @@ let projects = {
     ],
     jquery: [],
     reactjs: ["TRP", "OpenWeatherAPI", "Covid19Tracker", "HungryFrontend"],
+    typescript: ["Programa"],
     androidsdk: ["Clymbr"],
     flutter: ["MWLoadouts"],
     nodejs: ["HungryBackend"],
